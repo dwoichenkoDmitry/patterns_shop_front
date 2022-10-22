@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.cardContainer{
+    border: 1px gray solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.cardImg{
+    width: 95%;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.podrobText{
+    text-align: center;
+    color: darkgray;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
+
+.cardPrice{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Rubik', sans-serif;
+}
+
+.cardName {
+    margin-left: 4px;
+    color: gray;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.imgOnCard{
+    width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .cardContainer{
+        width: 70%;
+    }
+}

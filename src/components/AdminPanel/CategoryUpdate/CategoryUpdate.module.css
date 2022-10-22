@@ -1,0 +1,15 @@
+.navBtns {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBtns div {
+    border: 1px black solid;
+    width: 50%;
+    text-align: center;
+}
+
+.active {
+    text-decoration: underline 4px;
+}

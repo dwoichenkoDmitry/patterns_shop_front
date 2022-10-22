@@ -1,0 +1,72 @@
+.ConsultationForm{
+    width: 65%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.container *{
+    font-family: Arial, serif;
+}
+
+.containerItem{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.containerItem p{
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+.nameInp{
+    width: 80%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.radioInpC{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radioInpC span{
+    display: flex;
+    align-items: center;
+}
+
+.radioInpC input{
+    width: 15px;
+    height: 15px;
+}
+
+.phone_number{
+    width: 70%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.sendBtn{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.textAnswer{
+    width: 70%;
+    height: 50px;
+    border-radius: 7px;
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+.textMain{
+    margin-left: 5px;
+}

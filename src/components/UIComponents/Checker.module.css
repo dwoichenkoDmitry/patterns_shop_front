@@ -1,0 +1,21 @@
+.container{
+    border: 1px black solid;
+    height: 13px;
+    width: 13px;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+.container *{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.checkerWhite{
+    background-color: white;
+
+}
+
+.checkerBlack{
+    background-color: black;
+
+}

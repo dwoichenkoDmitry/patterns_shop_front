@@ -1,0 +1,10 @@
+.App {
+  margin: 0;
+  padding: 0;
+  background-image: url("img/fon-dark.jpg");
+  padding-bottom: 60px;
+}
+
+.info {
+  font-size: 18px;
+}

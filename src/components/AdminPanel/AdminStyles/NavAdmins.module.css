@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+.inContainer{
+    border: 1px gray solid;
+    padding: 0 10px;
+    border-radius: 6px;
+}
+
+.inputElem *{
+    display: inline-block;
+    margin: 20px;
+}
+
+.inputElem input {
+    height: 25px;
+    width: 50%;
+}
+
+.sendBtn{
+    text-align: center;
+    margin-top: 100px;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.shadowFon{
+    background-color: rgba(0,0,0,0.3);
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.RegisterWindow{
+    position: fixed;
+    width: 60%;
+    margin-left: 20%;
+    bottom: 50px;
+    top: 0px;
+    border-radius: 6px;
+    height: 650px;
+    background-color: white;
+    border: 1px black solid;
+    animation-name: blockMove;
+    animation-duration: .9s;
+}
+
+.RegisterWindow input{
+    font-family: Arial sans-serif;
+    width: 70%;
+    margin-left: 15%;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.headerText{
+    margin-left: 20px;
+}
+
+.RegisterWindow h3, .RegisterWindow h2{
+    text-align: center;
+}
+
+.RegBtn{
+    margin-top: 35px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.secStepText{
+    margin-top: 100px;
+}
+
+.secStepBtn{
+    cursor: pointer;
+}
+
+@keyframes blockMove {
+    0%{
+        bottom: 1000px;
+    }
+    100%{
+        bottom: 50px;
+    }
+}

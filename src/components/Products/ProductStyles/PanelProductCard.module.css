@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+
+.leftSide {
+    width: 40%;
+}
+
+.rightSide {
+    width: 45%;
+}
+
+.leftSide img {
+    width: 90%;
+}
+
+.sizeAndPrice {
+    width: 90%;
+    border: 1px black dashed;
+
+}
+
+.price {
+    text-align: center;
+}
+
+.sizeText{
+    margin-left: 40px;
+}
+
+.sizes {
+    display: flex;
+    margin-left: 10px;
+}
+
+.size {
+    margin-left: 30px;
+    background-color: darkred;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.addProduct {
+    padding: 5px;
+    color: white;
+    width: 70%;
+    border-radius: 9px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.redBtn {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.grayBtn {
+    background-color: grey;
+}
+
+.activeSize {
+    background-color: brown;
+}
+
+.mainInfo {
+    width: 90%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: darkred 10px solid;
+
+}
+
+.info {
+    font-size: 18px;
+}
+
+.avtiveNav {
+    background-color: darkred;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.navigate {
+    cursor: pointer;
+    padding: 10px;
+
+}

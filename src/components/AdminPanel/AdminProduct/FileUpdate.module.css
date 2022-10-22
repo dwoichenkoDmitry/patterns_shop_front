@@ -1,0 +1,56 @@
+.shadowFon {
+    background-color: rgba(0,0,0,0.3);
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.container {
+    position: fixed;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+
+    left: 0;
+    border-radius: 6px;
+    height: 550px;
+    overflow: auto;
+    background-color: white;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSide {
+    width: 49%;
+    overflow: auto;
+    border-right: 1px black solid;
+    height: 100%;
+}
+
+.rightSide {
+    width: 49%;
+}
+
+
+.deletedFiles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deletedFiles h4 {
+    border-bottom: black 1px solid;
+    cursor: pointer;
+}
+
+.addBtn {
+    margin-top: 100px;
+    cursor: pointer;
+    text-decoration: underline;
+}

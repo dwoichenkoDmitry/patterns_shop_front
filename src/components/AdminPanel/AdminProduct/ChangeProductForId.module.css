@@ -1,0 +1,77 @@
+.shadowFon {
+    background-color: rgba(0,0,0,0.3);
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.container {
+    position: fixed;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+
+    left: 0;
+    border-radius: 6px;
+    height: 550px;
+    overflow: auto;
+    background-color: white;
+    border: 1px black solid;
+    animation-name: blockMove;
+    animation-duration: .9s;
+}
+
+.leftSide, .rightSide {
+    width: 50%;
+}
+
+.inpItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    font-size: 21px;
+}
+
+.btns button {
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+
+.checkers {
+    max-height: 200px;
+    overflow: auto;
+
+}
+
+.checkersContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkersContainer input {
+    width: 20px;
+}

@@ -1,0 +1,8 @@
+.questionItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border: 1px black solid;
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sendBtn {
+    margin: 20px 30%;
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+}

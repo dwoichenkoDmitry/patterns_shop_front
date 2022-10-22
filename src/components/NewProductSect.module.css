@@ -1,0 +1,28 @@
+.ProductSect{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.ProductSect h1{
+    padding: 15px;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr) );
+    grid-template-rows: minmax(min-content, max-content);
+
+}
+
+@media screen and (max-width: 750px) {
+    .container{
+        display: block;
+    }
+
+    .container *{
+        margin: 15px auto;
+    }
+}

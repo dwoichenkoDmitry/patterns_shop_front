@@ -1,0 +1,13 @@
+.InterSect{
+    background-color: white;
+    display: flex;
+
+}
+
+.leftSect{
+    width: 40%;
+}
+
+.leftSect img{
+    width: 100%;
+}

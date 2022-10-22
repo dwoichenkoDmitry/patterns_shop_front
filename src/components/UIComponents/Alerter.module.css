@@ -1,0 +1,47 @@
+.shadowFon{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.alerter{
+    position: fixed;
+    width: 40%;
+    margin-left: 10%;
+    bottom: 250px;
+    border-radius: 10px;
+    height: 200px;
+    background-color: white;
+    border: 3px black solid;
+    animation-name: blockMove;
+    animation-duration: .9s;
+}
+
+.textMes, .btn{
+    font-family: Arial sans-serif;
+    font-weight: bold;
+}
+
+.textMes{
+    margin-top: 30px;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+
+
+@keyframes blockMove {
+     0%{
+         bottom: 1000px;
+     }
+     100%{
+         bottom: 250px;
+     }
+ }

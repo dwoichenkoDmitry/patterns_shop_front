@@ -1,0 +1,55 @@
+.shadowFon{
+    background-color: rgba(0,0,0,0.3);
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.RegisterWindow{
+    position: fixed;
+    width: 60%;
+    margin-left: 20%;
+    bottom: 150px;
+    border-radius: 6px;
+    height: 350px;
+    background-color: white;
+    border: 1px black solid;
+    animation-name: blockMove;
+    animation-duration: .9s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftSide{
+    width: 60%;
+    border-right: 1px black solid;
+    height: 100%;
+}
+
+.paymentType {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.paymentType img {
+    height: 50px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.pricePanel h1{
+    margin-right: 30px;
+}
+
+.rightSide {
+    text-align: center;
+}
